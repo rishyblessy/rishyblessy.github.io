@@ -153,7 +153,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 }
 .no-list{
   margin: 0px;
-  padding: 0px;
+  padding: 30px;
   list-style: none;
 }
 .break{
@@ -164,6 +164,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 
 .bg-1{
   background-image: url('../images/floor.jpg');
+  
 }
 
 /* Header */
@@ -179,12 +180,12 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   margin-bottom:0px; 
 }
 #header .visible{
-  opacity: 1;
+  opacity: .7;
 }
 
 /* Tabs */
 .etabs{
-  margin: 0;
+  margin: 30px;
   padding: 0px;
   text-align: center;
 }
@@ -275,6 +276,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 }
 /* Contact */
 .main-links{
+  background:rgba(0.0.0.0.1); 
 
 }
 .main-links ul{
@@ -341,11 +343,13 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 .work li{
   border-bottom: 1px solid #f1f1f1;
   margin-bottom: 2em;
+  background:rgba(255,255,255,0.4); 
+
 }
 .work li span{
   float: right;
 }
-.work li h5{
+.work li h5
   float: left;
 }
 .work li p{
